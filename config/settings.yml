@@ -5,3 +5,7 @@ static_pages:
   railshelp: "http://www.railstutorial.org/help"
   rubyonrails: "http://rubyonrails.org/"
   screencasts: "http://screencasts.railstutorial.org/"
+layouts:
+  michael: "http://www.michaelhartl.com/"
+  news: "http://news.railstutorial.org/"
+  raislcontact: "http://www.railstutorial.org/contact"

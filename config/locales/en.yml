@@ -6,6 +6,8 @@ en:
       this_is: "This is the home page for the"
       ruby_on: "Ruby on rails Tutorials"
       samapp: "sample application."
+      welcome_samapp: "Welcome to the Sample App"
+      signup_now: "Sign up now!"
     help:
       help: "Help"
       get_help_on: "Get help on the Ruby on Rails Tutorial at the"
@@ -14,6 +16,7 @@ en:
       ruby_on: "Ruby on Rails Tutorial"
       book: "book"
     about:
+      about_title: "About"
       about: "About"
       the: "The"
       ror_tutorial: "Ruby on Rails Tutorial"
@@ -24,7 +27,24 @@ en:
       screencast_series: "screencast series"
       and_to_teach: "and to teach web development with"
       this_is: "This is the sample application for the tutorial."
+    contact:
+      contact_title: "Contact"
+      contact: "Contact"
+      contact_ruby: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      contact_page: "contact page"
 
   layouts:
     application:
       ror_tutorial: "Ruby on Rails Tutorial Sample App"
+    footer:
+      ror_tutorial: "Ruby on Rails Tutorial Sample App"
+      the: "The"
+      by: "by"
+      author: "Michael Hartl"
+      news: "News"
+    header:
+      samapp: "sample app"
+  users:
+    new:
+      sign_up: "Sign up"
+      this_will: "This will be a signup page for new users"
