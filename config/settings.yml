@@ -9,3 +9,7 @@ layouts:
   michael: "http://www.michaelhartl.com/"
   news: "http://news.railstutorial.org/"
   raislcontact: "http://www.railstutorial.org/contact"
+models:
+  maxsize_name: 50
+  maxsize_email: 255
+  minsize_pass: 6
