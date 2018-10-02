@@ -1,4 +1,7 @@
 en:
+  helpers:
+    application_helper:
+      ror: 300
   static_pages:
     home:
       home_title: "Home"
@@ -37,7 +40,7 @@ en:
     application:
       ror_tutorial: "Ruby on Rails Tutorial Sample App"
     footer:
-      ror_tutorial: "Ruby on Rails Tutorial Sample App"
+      ror_tutorial: "Ruby on Rails Tutorial"
       the: "The"
       by: "by"
       author: "Michael Hartl"
@@ -47,4 +50,12 @@ en:
   users:
     new:
       sign_up: "Sign up"
-      this_will: "This will be a signup page for new users"
+      create_acc: "Create my account"
+      confirm: "Confirmation"
+    create:
+      welcome: "Welcome to the Sample App!"
+      fail: "Your accout not found! Try again"
+  shared:
+    error_messages:
+      form_contain: "The form contains"
+      err: "errors"
