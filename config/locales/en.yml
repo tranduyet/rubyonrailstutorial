@@ -47,6 +47,12 @@ en:
       news: "News"
     header:
       samapp: "sample app"
+      login: "Log in"
+      users: "Users"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Log out"
+      acc: "Accout"
   users:
     new:
       sign_up: "Sign up"
@@ -59,3 +65,10 @@ en:
     error_messages:
       form_contain: "The form contains"
       err: "errors"
+  sessions:
+    new:
+      login: "Log in"
+      sign_up: "Sign up now!"
+      new_user: "New user"
+    create:
+      invalid: "Invalid email/password combination"
