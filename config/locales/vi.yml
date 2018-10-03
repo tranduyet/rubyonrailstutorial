@@ -1,0 +1,91 @@
+vi:
+  static_pages:
+    home:
+      sign_up: "Đăng kí ngay!!"
+      home_title: "Trang chủ"
+      sample_app: "Sample App"
+      this_is: "Đây là trang chủ cho"
+      ruby_on: "Ruby on rails Tutorials"
+      samapp: "ứng dụng sample."
+      welcome_samapp: "Chào mừng đến với ứng dụng sample"
+    help:
+      help_title: "Hỗ trợ"
+      help: "Hỗ trợ"
+      get_help_on: "Tìm kiếm sự hỗ trợ trên Ruby on Rails Tutorial tại"
+      rails_tutorial: "Rails Tutorial phần hỗ trợ"
+      get_help_sample_app: "Để được trợ giúp về Sample app, hãy xem"
+      ruby_on: "Ruby on Rails Tutorial"
+      book: "sách"
+    about:
+      about_title: "Thông tin"
+      about: "Thông tin"
+      the: " "
+      ror_tutorial: "Ruby on Rails Tutorial"
+      ruby_on: "Ruby on Rails"
+      book: "sách"
+      is_a: "là"
+      screencast_series: "screencast series"
+      and_to_teach: "và để dạy phát triển web với"
+      this_is: "Đây là ứng dụng mẫu cho hướng dẫn."
+    contact:
+      contact_title: "Liên hệ"
+      contact: "Liên hệ"
+      contact_the: "Liên hệ Ruby on Rails Tutorial hỗ trợ về sample app tại"
+      contact_page: "trang liên hệ"
+  layouts:
+    application:
+      ror_tutorial: "Ruby on Rails Tutorial Sample App"
+    footer:
+      the: " "
+      by: "bởi"
+      author: "Michael Hartl"
+      news: "Tin tức"
+    header:
+      log_in: "Đăng nhập"
+      users: "Người dùng"
+      profile: "Hồ sơ"
+      contact: "Liên hệ"
+      settings: "Cài đặt"
+      logout: "Đăng xuất"
+      acc: "Tài khoản"
+      sample_app: "sample_app"
+  users:
+    new:
+      sign: "Đăng kí"
+      create_acc: "Tạo tài khoản"
+      confirm: "Xác thực"
+      pls_login: "Hãy đăng nhập."
+    create:
+      welcome: "Chào mừng đến với Sample App!"
+      fail: "Tài khoản của bạn không tồn tại! Thử lại"
+    edit:
+      edit_user: "Chỉnh sửa"
+      update_pro: "Cập nhật hồ sơ"
+      confirm: "Xác thực"
+      change: "thay đổi"
+      save_change: "Lưu các thay đổi"
+      u_sure: "Bạn có chắc không?"
+    update:
+      profile_updated: "Hồ sơ đã được cập nhật"
+    index:
+      all_users: "Tất cả người dùng"
+      not_found_user: "Không tìm thấy người dùng tương ứng"
+    delete:
+      delete: "xóa"
+    destroy:
+      user_deleted: "Người dùng đã được xóa"
+      user_dele_fail: "Lỗi khi xóa user"
+    user:
+      u_sure: "Bạn có chắc muốn xóa!"
+  shared:
+    error_messages:
+      form_contain: "mẫu bao gồm"
+      err: "errors"
+  sessions:
+    new:
+      login: "Đăng nhập"
+      sign_up: "Đăng kí ngay!"
+      new_user: "Người dùng mới"
+      remember_me: "Nhớ mật khẩu"
+    create:
+      invalid: "email/mật khẩu không đúng"

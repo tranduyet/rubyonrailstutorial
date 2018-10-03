@@ -6,7 +6,7 @@ class User < ApplicationRecord
   validates :email, presence: true, length: {maximum: Settings.models.maxsize_email}, format: {with: VALID_EMAIL_REGEX},
     uniqueness: {case_sensitive: false}
   has_secure_password
-  validates :password, presence: true, length: {minimum: Settings.models.minsize_pass}
+  validates :password, presence: true, length: {minimum: Settings.models.minsize_pass}, allow_nil: true
 
   def email_downcase
     email_downcase!
@@ -23,7 +23,7 @@ class User < ApplicationRecord
 
   def remember
     self.remember_token = User.new_token
-    update remember_digest: User.digest remember_token
+    update remember_digest: User.digest(remember_token)
   end
 
   def authenticated? remember_token

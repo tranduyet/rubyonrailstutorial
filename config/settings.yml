@@ -13,3 +13,10 @@ models:
   maxsize_name: 50
   maxsize_email: 255
   minsize_pass: 6
+users:
+  gravatar: "http://gravatar.com/emails"
+  size_gra: 50
+helpers:
+  size_option: 80
+controllers:
+  per_page: 10
